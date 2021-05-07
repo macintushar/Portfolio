@@ -1,0 +1,47 @@
+body {
+    background-image: url("./static/images/NYC-bg.jpg");
+  }
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.light-text{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.thick-text{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.medium-text{
+  font-family: 'Lato', sans-serif;
+}
+
+.linked-text{
+  color: white
+}
+
+.linked-text-blk{
+  color: black;
+}
+.linked-text-blk:hover{
+  color: orange;
+}
