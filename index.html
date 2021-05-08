@@ -208,6 +208,7 @@
       <div class="container center-align justify-center">
         <div id="curator-feed-default-feed-layout">
           <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">
+            Powered by Curator.io
           </a>
         </div>
         <div class="container justify-center center text-center">
@@ -254,48 +255,10 @@
           Get in touch with me below.
         </h5>
         <br>
-        <div class="container" style="background-color: #ffffff;">
-            <form name="submit-to-google-sheet" class="was-validated">
-                <div class="form-group">
-                <label for="name">
-                  Name:
-                </label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
-                </div>
-                <div class="form-group">
-                <label for="email">
-                  Email:
-                </label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="number">
-                      Phone Number:
-                    </label>
-                    <input type="tel" class="form-control" id="number" placeholder="Enter phone number" name="number" required>
-                </div>
-                <div class="form-group">
-                    <label for="msg">
-                      Message:
-                    </label>
-                    <input type="text" class="form-control" id="msg" placeholder="Enter message" name="message" required>
-                </div>
-            
-                <button type="submit" class="btn btn-primary">
-                  Submit
-                </button>
-            </form>
-            <script>
-                const scriptURL = 'https://script.google.com/macros/s/AKfycbzVTfJcKgN0PmmFi_MdfE6m72xLqZAidYaRZEEsfsdlNjJ946IO/exec'
-                const form = document.forms['submit-to-google-sheet']
-              
-                form.addEventListener('submit', e => {
-                  e.preventDefault()
-                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => console.log('Success!', response))
-                    .catch(error => console.error('Error!', error.message))
-                })
-            </script>
+        <div class="container text-center" style="background-color: #ffffff;">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeijW5sjL0jXSHKx4_qJWZAys7aUb7v4KwzeBBUvgoCU1PMIg/viewform?embedded=true" width="640" height="650" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">
+            Loading…
+          </iframe>
             <br>
         </div>
       </div>
