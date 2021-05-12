@@ -41,6 +41,7 @@ a:active {
 
 .linked-text-blk{
   color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 .linked-text-blk:hover{
   color: orange;
