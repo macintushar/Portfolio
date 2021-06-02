@@ -46,3 +46,8 @@ a:active {
 .linked-text-blk:hover{
   color: orange;
 }
+
+.socials-bg{
+  background-color: white;
+  background-image: linear-gradient(white,#0B8ECB);
+}
